@@ -1,0 +1,6 @@
+### All V4 data ---
+picrust2_pipeline.py -s Output/dada2/V4_ASV_seqs_nc.fna -i Output/dada2/V4_ASV_abun_nc.biom -o Output/picrust2_out_pipeline_nc -p 14 --min_align 0.95
+
+Results info: 
+11 ASV were removed, as they did not aligned to the refernces sequences with minBoot95. 
+111 of 5232 ASVs were above the max NSTI cut-off of 2.0 and were removed from the downstream analyses.
